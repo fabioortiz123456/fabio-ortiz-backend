@@ -12,11 +12,11 @@ package Solucion_Reto3.Reto3;
 public class ContadorClientes {
     
     private Long total;
-    private Cliente cliente;
+    private Cliente client;
 
-    public ContadorClientes(Long total, Cliente cliente) {
+    public ContadorClientes(Long total, Cliente client) {
         this.total = total;
-        this.cliente = cliente;
+        this.client = client;
     }
 
     public Long getTotal() {
@@ -27,14 +27,15 @@ public class ContadorClientes {
         this.total = total;
     }
 
-    public Cliente getCliente() {
-        return cliente;
+    public Cliente getClient() {
+        return client;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
+    public void setClient(Cliente client) {
+        this.client = client;
     }
-    
+
+        
     
     
 }
